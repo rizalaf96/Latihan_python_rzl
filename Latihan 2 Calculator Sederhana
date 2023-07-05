@@ -1,0 +1,32 @@
+#judul
+print ("\n"*3)
+print ("="*5,"CALCULATOR SEDERHANA","="*5)
+print ("\n"*3)
+
+#input
+angka_1= float(input("Angka 1 :"))
+fungsi = input("fungsi :")
+angka_2= float(input("Angka 2 :"))
+
+# Fungsi operator
+tambah = angka_1 + angka_2
+kurang = angka_1 - angka_2
+kali = angka_1 * angka_2
+bagi = angka_1/angka_2
+
+#logaritma calculator
+if fungsi == "+" :
+    print(f"Hasil = {tambah}")
+elif fungsi == "-" :
+    print(f"Hasil = {kurang}")
+elif fungsi == "x" or fungsi == "*":
+    print(f"Hasil = {kali}")
+elif fungsi == "/" or fungsi == ":":
+    print(f"Hasil = {bagi}")
+else :
+    print("tolong masukan operator yang benar")
+
+#salam
+print ("\n"*3)
+print ("terima kasih telah menggunakan calculator")
+print ("\n"*2)
